@@ -1,0 +1,3812 @@
+﻿@media only screen and (min-width : 319px) and (max-width : 1210px) {
+    /*.centeredRow {
+        margin-left: 5.5%;
+        max-width: 93%;
+        min-height:140px;
+    }*/
+
+    iframe {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width : 0px) and (max-width : 335px) {
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+
+@media only screen and (min-width:0px) and (max-width:736px) {
+     .whiteFooter {
+        margin-top: 43px !important;
+    }
+
+     .homeslider .inner, .homeslider2 .inner, .homeslider3 .inner, .homeslider4 .inner {
+    height: 100% !important;
+    width: 100%;
+    background: -webkit-linear-gradient(right, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    background: -o-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+}
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+
+    .title img {
+        padding: 0px;
+    }
+    .sidr-class-mobilesocial {
+            width: 95%;
+    margin-left: 5%;
+    }
+
+        .sidr-class-mobilesocial a {
+            margin-right:20px;
+        }
+    .fullWidthBox .inner p {
+        /* font-size: 100%; */
+        /*width: 95%;*/
+        margin: 0 auto;
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 14px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px !important;
+        margin-bottom: 10px;
+        line-height: 1.2em;
+    }
+        p a {
+            font-size: 16px !important;
+        }
+
+        p.leftBorder
+        {
+            font-size:18px !important;
+        }
+
+
+    p.introText
+    {
+        margin-bottom:0.5em;
+    }
+
+    .legals p {
+        clear: both;
+    }
+
+    p.leftBorder {
+        width: 100%;
+    }
+
+    .smallbg .homeslider {
+        margin-bottom: 2em;
+    }
+
+    p.smallText {
+        margin-bottom: 20px;
+    }
+
+    .historyText .floater, .shareIt .floater {
+        width: 72%;
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 0px;
+    }
+
+    .historyText, .shareIt {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .historyText {
+        margin-top: 0px;
+    }
+
+    .floater {
+        margin-top: 10px;
+        /*max-width: 134px;*/
+        width: auto;
+    }
+
+        .floater h4 {
+            float: left;
+            /* margin: 0 auto 7px; */
+            display: block;
+            width: auto;
+            /* max-width: 51%; */
+            text-align: left;
+        }
+
+    .history p {
+        display: block;
+    clear: both;
+
+        width: 100% !important;
+    }
+
+    .centerimage {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .music .centerimage {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .bscArtist {
+        float: none;
+        width: 80%;
+        margin-right: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+        .bscArtist:nth-child(5n) {
+            margin-right: auto;
+        }
+
+    .bscArtistBlock {
+        height: auto;
+        margin-top: 20px;
+    }
+
+        .bscArtistBlock .overImg {
+            float: none;
+            width: 80%;
+            margin-right: 4.749%;
+            margin: 0 auto;
+            min-height: 230px;
+        }
+
+        .bscArtistBlock .artistInfo {
+            float: none;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .bscArtistBlock h3.artistname {
+            font-size: 20px;
+            margin-top: 20px;
+            float: left;
+            
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+    ul.terms li {
+        margin-bottom: 8px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .noslider h1, .heading1 {
+        margin-top: 30px;
+        /* margin-bottom: 37px; */
+        width: 90%;
+        margin-left: 5%;
+        float: left;
+        font-size: 36px;
+    }
+
+    .noslider h1, .heading1, .smallbg #homeslider .noslider h1 {
+    }
+
+    .noslider {
+        height: 60px;
+    }
+
+    .marketstall {
+        width: 100%;
+        float: left;
+        margin-right: 0px;
+        max-width: 100%;
+        height: 190px;
+    }
+
+    .marketHolder {
+        width: 100%;
+    }
+
+    .sidr ul li ul li {
+        display: none;
+    }
+
+    .outerheader {
+        height: 70px;
+    }
+
+    .regIntButt .ctaBlue:before {
+        display: none;
+    }
+
+    .regIntButt .ctaBlue {
+        margin-top: 20px;
+    }
+
+    .td48.two {
+        background-color: #094c8b !important;
+        background-image: none !important;
+        float: left;
+        padding-bottom: 80px;
+    }
+
+        .td48.two h2 {
+            margin-left: 15px !important;
+        }
+
+    .eventsList td:nth-child(even), .sidr-class-socialPanelTop {
+        display: none;
+    }
+
+    .sidr ul {
+        border-top: none !important;
+        margin: 14px 0 15px;
+    }
+
+    .gallColumn p {
+        margin-top: 3em;
+    }
+
+    .gallImg {
+        margin-bottom: 0em;
+        min-height: 0px;
+        height: 0px;
+        padding-bottom: 100%;
+    }
+
+    .loadMore {
+        min-height: 0px !important;
+        margin-top: 1.5em;
+        height: 40px;
+        width: 100%;
+        left: 0%;
+    }
+
+        .loadMore a {
+            left: 50%;
+            margin-left: -59px;
+        }
+
+    .greyone {
+        display: none !important;
+    }
+
+    .loadMore a {
+        font-size: 14px;
+    }
+
+    .image-gallery .loadMore {
+        margin-top: -1.5em;
+    }
+
+    .socialDiv, .gallColumn {
+        width: 100%;
+    }
+
+    .socialFeed .inner {
+        padding-bottom: 0em;
+        padding-top: 2.5em;
+    }
+
+    .cta33.optionsCTA h3 {
+        color: #fff;
+        padding-left: 20px;
+        position: absolute;
+        bottom: 0px;
+        top: initial;
+        z-index: 1000;
+        margin-bottom: 0px;
+        height: 62px;
+        font-size: 46px;
+    }
+
+    .smallbg #homeslider h1, .smallbg #homeslider2 h1, .smallbg #homeslider3 h1, .smallbg #homeslider4 h1 {
+        font-size: 30px;
+        /*margin-left: 20px;*/
+    }
+
+    .homesliderHolder2, .homesliderHolder3, .homesliderHolder4 {
+        position: relative;
+        float: left;
+        min-height: 310px;
+        /*float: none;*/
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+
+
+
+
+    .cta33.optionsCTA p:nth-child(3) {
+        margin-top: 0px;
+    }
+
+
+    .footer {
+        margin-top: 0px;
+        height: 90px;
+    }
+
+   
+
+    .sidebar .cta33 h3 {
+        font-family: 'SupriaSansW01-CdLight' !important;
+        width: 100%;
+    }
+
+
+
+    .cta50.greyBGdark {
+        background-image: none;
+        min-height: 280px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .contentWrapper.productPage {
+        padding-left: 20px !important;
+    }
+
+        .contentWrapper.productPage #ckeditor0 {
+            width: 100% !important;
+        }
+
+    .infoPanel {
+        padding-left: 20px !important;
+    }
+
+    .cta33.optionsCTA {
+        margin-bottom: 30px;
+    }
+
+    .optionsCTA.cta33 p {
+        margin-top: 30px;
+        float: left !important;
+        padding-left: 20px;
+    }
+
+    .title a {
+        height: 56px;
+    }
+
+    .footerInner.noLeft a {
+        width: 77%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .cookieLink {
+        width: 100% !important;
+        margin-top: 21px;
+        color: #fff;
+        font-weight: normal !important;
+    }
+
+    .footerInner.noLeft a img {
+        width: 100%;
+    }
+
+    .optionsCTA.cta33 a {
+        text-align: center;
+        position: relative;
+        border: 1px solid #c4c4c4;
+        bottom: -20px;
+        margin: 0 auto;
+        float: none;
+        max-width: 100%;
+        float: left !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        /* margin-left: 26px; */
+        border-radius: 3px;
+        height: 30px;
+        padding-bottom: 10px;
+        width: 86%;
+        bottom: -10px;
+        padding-top: 10px;
+        background-color: #fff;
+    }
+
+    .productListtbl th, .productListtbl tr:first-child {
+        display: none;
+    }
+
+    .productListtbl td {
+        width: 100% !important;
+        padding-left: 20px;
+    }
+
+        .productListtbl td p {
+            margin-left: 0px !important;
+            margin-top: 10px;
+            max-width: 300px;
+        }
+
+    .productListtbl tr {
+        height: auto;
+    }
+
+    .our-courses.ifrs.smallbg .homeslider h3 {
+        display: none;
+    }
+
+    .productListtbl td:first-child:before, .productListtbl td:nth-child(2):before, .productListtbl td:nth-child(3):before, .productListtbl td:nth-child(4):before {
+        content: "Course:   ";
+        color: #5a82ac;
+        font-family: 'SupriaSansW01-CdMedium';
+        display: block;
+        font-size: 16px;
+    }
+
+    .productListtbl td:nth-child(2):before {
+        content: "Who should attend:   ";
+    }
+
+    .productListtbl td:nth-child(3):before {
+        content: "Dates:   ";
+    }
+
+    .productListtbl td:nth-child(4):before {
+        content: "Location:   ";
+        margin-bottom: 0px;
+    }
+
+    .productListtbl td:nth-child(4) {
+        padding-bottom: 30px;
+    }
+
+    .courseList tr, .courseList tbody, .courseList td {
+        float: none !important;
+    }
+
+    .contact-us .contactForm select {
+        width: 91.5%;
+    }
+
+    .smallbg #homeslider .loginBox h1 {
+        width: 80%;
+        margin-top: -12px;
+        font-size: 27px;
+    }
+
+    .CTAtextbox {
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+
+    .productListtbl {
+        width: 100%;
+        border-spacing: 0px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .td25.sidebar .cta33 {
+        margin-bottom: 30px;
+    }
+
+    table {
+        margin-bottom: 0px;
+        max-width: 100%;
+        width: 100% !important;
+    }
+
+    .td30, .td3, .td66, .td20 {
+        width: 100% !important;
+    }
+
+
+
+        .td3.nomob, .td30.nomob {
+            display: none !important;
+        }
+
+    .fullWidthBox .inner .td66 h2 {
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .footerText {
+        width: 100%;
+    }
+
+    .footerInner.noLeft img {
+        width: 47%;
+        margin-right: 2%;
+    }
+
+    .cta25 {
+        width: 43% !important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+
+
+    .searchboxdiv.menu ul {
+        margin-top: 3px;
+    }
+
+        .searchboxdiv.menu ul li {
+            width: auto;
+            display: inline-block;
+            clear: none;
+            float: left;
+            margin-left: 10px !important;
+        }
+
+            .searchboxdiv.menu ul li:first-child {
+                margin-left: 20px !important;
+            }
+
+    .page {
+        /*margin-top: 40px;*/
+    }
+
+
+
+    .cta50.greyBG.bookBG li, .cta50.greyBG ul li {
+        padding-left: 30px;
+        position: relative;
+        width: 80%;
+        list-style: none;
+    }
+
+
+
+    .greyBG a, .greyBGdark a {
+        position: initial;
+    }
+
+    .greyBGdark p {
+        color: #fff;
+        width: 83%;
+    }
+
+
+
+    .optionsCTA.cta33 {
+        /*min-height: 1px;
+ max-height: 489px;*/
+        height: auto;
+        padding-bottom: 30px;
+        /* color: #fff; */
+    }
+
+    .sidebar .cta33, .cta50 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .cta10.cta25, .cta11.cta25, .cta12.cta25, .cta13.cta25, .twoColsixItem li {
+        width: 100% !important;
+    }
+
+    .cta25.noright {
+        margin-bottom: 40px;
+    }
+
+    .cta25 p {
+        display: none;
+    }
+
+    .cta10.cta25 img, .cta11.cta25 img, .cta12.cta25 img, .cta13.cta25 img {
+        margin-left: 36%;
+    }
+
+    .fullWidthBox .inner .darkgreen h2 {
+        padding: 9px 4px;
+    }
+
+    /* Styles */
+    /*body {
+        transition: all .2s linear;
+        -o-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -webkit-transition: all .2s linear;
+    }*/
+
+    .nomobile {
+        display: none;
+    }
+
+    .debugger .cmsButton {
+        margin: 1px;
+        padding: 3px;
+    }
+
+    .addpanel {
+        height: 120px;
+        width: 84%;
+    }
+
+    /*.right
+    {
+          float: none;
+  height: 45px;
+  padding-left:0px;
+  line-height:normal;
+  display: block;
+  clear: both;
+}*/
+
+
+    .subContent {
+        margin: 0px auto;
+        padding-top: 70px;
+    }
+
+    .textcontent, .leftMenu {
+        /*-webkit-flex:1;
+        flex:1;*/
+        order: 0;
+        -webkit-order: 0;
+        /*display:flexbox !important;*/
+    }
+
+    .contactSidebar.twentyFiveWidthBox, .twentyFiveWidthBox {
+        order: 1;
+        -webkit-order: 1;
+    }
+
+    .relatedContent {
+        order: 2;
+        -webkit-order: 2;
+    }
+
+
+    .textcontent, .textcontent.practiceAreabox, .contactSidebar.twentyFiveWidthBox, .contactSidebar .ppblock span {
+        display: block;
+        clear: both;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .footerCenteredRow {
+        height: 75px;
+        text-align: center;
+    }
+
+    .footer .menu {
+        margin-top: 13px;
+    }
+
+    .contactSidebar .ppblock span {
+        margin-top: 10px;
+    }
+
+    /*.homeSliderText {
+        color: #FFF;
+        
+        margin-top: 0px;
+        
+          -webkit-transform: translateY(30%);
+    }*/
+
+    .homeSliderText h2 {
+        font-style: normal;
+        font-size: 18px !important;
+        font-weight: normal;
+        max-width: 100%;
+        display: block;
+        line-height: 1.2em;
+        margin-bottom: 16px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .homeSliderText h1 {
+        font-size: 36px;
+        max-width: 100%;
+        color: #FFF;
+        padding-top: 23px;
+        margin-bottom: 0px;
+        padding-bottom: 16px;
+    }
+
+    .cookie-warning {
+        position: relative !important;
+        width: 100%;
+        height: 100px !important;
+        z-index: 10000000;
+        top: 0px;
+        background: #7b7979;
+        padding-top: 31px !important;
+        float: left;
+    }
+
+        .cookie-warning p {
+            line-height: 1.5em !important;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+    .burger {
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 18px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        z-index: 1000000;
+        display: none;
+        top: 50%;
+        width: 26px;
+        height: 19px;
+        background-image: url(../images/buttons/mobilemenu.html);
+        background-size: contain;
+    }
+
+        .burger span {
+            display: none;
+        }
+
+    .homeSliderText a, .featuredNews a.readMore, .readMore {
+        font-size: 12px;
+        float: none;
+        padding: 5px;
+        width: auto;
+    }
+
+    .readMore {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+
+    .featuredNews a.readMore {
+        margin: 0 auto;
+        width: 99px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+
+    .findoutMore {
+        bottom: -42px !important;
+    }
+
+
+
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        /*display: none;*/
+        right: 50%;
+        text-align: right;
+        bottom: 42px !important;
+    }
+
+
+    .sectorCTA {
+        display: block;
+        clear: both;
+        height: auto;
+    }
+
+    .relatedContent .blueTitleStrip {
+        display: block;
+    }
+
+        .relatedContent .blueTitleStrip h3 {
+            margin-left: 0px;
+        }
+
+    .relContent {
+        height: 230px !important;
+    }
+
+        .relContent span {
+            font-size: 14px !important;
+        }
+
+        .relContent h2 {
+            bottom: 175px !important;
+        }
+
+    .introPara {
+        font-size: 14px !important;
+    }
+
+    .quotePara, blockquote {
+        font-size: 14px;
+    }
+
+        .quotePara p, blockquote p {
+            font-size: 17px !important;
+            margin: 0px !important;
+            line-height: 1.3em !important;
+        }
+
+    .quoteSubtitle {
+        font-size: 12px !important;
+    }
+
+    .twentyFiveWidthBox {
+        border-bottom: none;
+    }
+
+    .homeslider, .homeslider2, .homeslider3, .homeslider4 {
+        max-height: 310px;
+        height: 310px;
+    }
+
+    hr
+{
+            margin-bottom: 1em;
+    margin-top: 1em;
+    }
+
+        .homeslider2 .inner, .homeslider3 .inner, .homeslider4 .inner {
+            margin-left: 0px;
+            padding-left:0px;
+        }
+
+    .leftMenu {
+        /*display:none;*/
+        width: 100%;
+        min-height: 0px;
+        /*border-bottom: 1px solid #CCC;*/
+        margin-bottom: 21px;
+        /*order:0;*/
+    }
+
+    .searchMobile input {
+        width: 90%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 20px;
+        padding: 5px;
+    }
+
+
+
+    #thePage .searchboxdiv.menu {
+        width: 100% !important;
+        right: 0px !important;
+        top: -40px !important;
+        position: relative !Important;
+        padding-bottom: 11px;
+        background-color: #f3f3f3;
+        padding-top: 4px;
+        display: none;
+    }
+
+    .searchMobile {
+        height: 65px;
+        background-color: #2eace2;
+    }
+
+    .rightHandMenuDD {
+        display: block;
+    }
+
+    .searchIcon {
+        float: left;
+    }
+
+    .partnerMainDetails img {
+        display: none;
+    }
+
+    .cta10 .popme img {
+        width: 9px !important;
+        left: 98px;
+        top: 0px;
+    }
+
+
+
+
+    .infoPanel {
+        min-height: initial;
+        max-height: initial;
+    }
+
+        .infoPanel .thirtyThree {
+            width: 100% !important;
+            max-width: initial !important;
+            padding-right: 0px;
+        }
+
+    .thirtyThree p {
+        width: 100% !important;
+    }
+
+    .infoPanel .imgBox, .infoPanel .courseDetails {
+        width: 100%;
+    }
+
+    .infoPanel .thirtyThree h3 {
+        width: 100% !important;
+    }
+
+    .productInformation {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #ckeditor1 {
+        width: 100% !important;
+    }
+
+    #contactHme {
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .infoPanel {
+        margin-top: 20px;
+        max-width: 90%;
+        width: 90%;
+        padding-right: 20px;
+        padding-bottom: 25px;
+    }
+
+    .productCKed {
+        height: auto !important;
+    }
+
+    #ckeditor1 {
+        max-width: 370px;
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+
+    .study-materials #ckeditor1 {
+        width: 100% !Important;
+        max-width: initial;
+    }
+
+    .study-materals .infoPanel .courseDetails {
+        width: 87%;
+    }
+
+    .infoPanel .imgBox h3 {
+        top: initial;
+        bottom: -27px;
+    }
+
+    .study-materials .infoPanel .courseDetails h3 {
+        width: 100%;
+    }
+    /*.study-materials .courseDetails {
+       width: 86% !Important;
+   }*/
+    .infoPanel .courseDetails h2 {
+        width: 100% !important;
+    }
+
+    .infoPanel .courseDetails h3 {
+        width: 100%;
+    }
+
+    .infoPanel .imgBox img {
+        width: 100% !important;
+    }
+
+    .infoPanel .imgBox {
+        padding-left: 0px;
+    }
+
+    .courseAccordion {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .smallbg #homeslider .inner:first-child {
+        /*padding-left: 5.5%;*/
+    }
+
+    .smallbg #homeslider .inner {
+        min-height: 311px;
+    }
+
+    .smallbg #homeslider .noslider .inner {
+        height: 60px;
+    }
+
+    .contentWrapper {
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+    }
+
+    .infoPanel .courseDetails .cta a.ctaBlue {
+        margin-left: 0px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .infoPanel .courseDetails .cta {
+        width: 100%;
+        float: left !important;
+        position: initial;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    ul.twoColsixItem {
+        width: 90%;
+    }
+
+    .contentWrapper.productPage {
+        width: 90% !important;
+    }
+
+    .study-materials ul.twoColsixItem {
+        margin: 0 auto;
+        float: none !important;
+    }
+
+    .study-materials p.strong {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .introVis {
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .ebookCTA {
+        background-image: none;
+    }
+
+    .cta10 .popme {
+        padding-left: 20px;
+        padding-right: 12px;
+    }
+
+    .overlay {
+        display: none !Important;
+    }
+
+
+
+    .greyBorder, .findMore {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .cta50.greyBGdark {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .linkz {
+        width: 90%;
+        float: left !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .introVis, .cta10 a.popme, .services .cta10 .ctadrop {
+        width: 90% !important;
+        float: left !important;
+    }
+
+    .services .cta10 .ctadrop {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    p.strong {
+        width: 90%;
+    }
+
+    .news.smallbg #homeslider h3 {
+        display: none !important;
+    }
+
+    .news.smallbg #homeslider h1 {
+        margin-left: 20px !important;
+        font-size: 40px !important;
+    }
+
+    .cta33.bluBor h3 {
+        padding-left: 0px !Important;
+    }
+
+    .cta33.ourEbooks p {
+        margin-left: 0px !important;
+    }
+
+    .choosepaper {
+        font-size: 15px;
+    }
+
+    .imgbox {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+    .courseOptions.examKit p {
+        margin-left: 0px !important;
+    }
+
+    .study-materials.smallbg .twoColsixItem {
+        border-bottom: 1px solid #d6d6d6;
+        padding-bottom: 20px;
+        margin-bottom: 7px;
+        float: left !important;
+        margin-left: 20px;
+    }
+
+    .subContent .leftArea, #ctl00_MainContent_leftArea {
+        /*margin-left: 5.5%;
+        margin-right: 5.5%;
+        max-width: 89%;*/
+        padding-bottom: 0px;
+        /*display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex: 1;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;*/
+    }
+
+    .blueTitleStrip {
+        height: auto;
+        min-height: 52px;
+        margin-top: 0px;
+    }
+
+    .smallbg .blueTitleStrip {
+        min-height: 1px;
+    }
+
+    .blueTitleStrip h3 {
+        font-size: 20px;
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+    }
+
+    .td71 h2 {
+        padding-left: 20px;
+        float: left;
+        width: 100%;
+    }
+
+    .productListtbl td {
+        width: 87% !important;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        height: auto;
+        padding-top: 19px;
+    }
+
+    .infoPanel .twentyFive {
+        width: 100% !important;
+        float: left;
+        max-width: initial !important;
+    }
+
+    .productListtbl tr td:first-child {
+        padding-left: 0px;
+    }
+
+    .productListtbl td a {
+        padding-left: 0px;
+    }
+
+    .productListtbl td p {
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    .contactForm label {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        text-indent: 15px;
+        margin-right: 5%;
+        margin-bottom: 5px;
+    }
+
+
+    .prodSelector {
+        display: none !important;
+    }
+
+    .our-courses.smallbg .breadcrumb, .study-materials.smallbg .breadcrumb {
+        display: none !important;
+    }
+
+    .my-account .contactForm.registerInterest:first-child {
+        min-height: 530px;
+    }
+
+    #myaccounttabs .contactForm.registerInterest:first-child, #myaccounttabs .contactForm.registerInterest.courseInfo {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    .my-account label {
+        width: 100% !important;
+    }
+
+    .contactForm label sup {
+        font-size: 15px;
+    }
+
+    .study-materials .infoPanel .imgBox {
+        /*width: 87%;*/
+    }
+
+    .infoPanel .imgBox {
+        width: 100%;
+    }
+
+    .study-materials .chapterHolder {
+        position: initial !important;
+        margin-top: 20px;
+        text-align: left;
+        width: 100%;
+        float: left;
+        display: block !important;
+    }
+
+    .prodPrice h2 {
+        padding-left: 0px;
+    }
+
+    .prodPrice {
+        position: relative;
+        top: 15px;
+    }
+
+    .orchoose {
+        position: initial !important;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+    }
+
+    .chapterHolder .choosepaper {
+        margin-left: 0px;
+        height: 45px;
+        width: 100%;
+    }
+
+    .toggleContainer {
+        display: none !important;
+    }
+
+    .study-materials .contentWrapper.productPage {
+        /*width: 88%;*/
+    }
+
+    .study-materials .infoPanel .courseDetails {
+        /*width: 87%;*/
+    }
+
+    .study-materials.acca table .sidebar p {
+        padding-left: 20px !important;
+        padding-right: 20px;
+    }
+
+    .study-materials.acca table .sidebar .ourEbooks p {
+        padding-left: 0px !important;
+    }
+
+    .overlay {
+        display: none !important;
+    }
+
+    .infoPanel .imgBox img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #myaccount1 .contactForm.registerInterest select, #myaccount2 .contactForm.registerInterest select {
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+        border: 1px solid #ccc;
+    }
+
+    .hideMob {
+        display: none !important;
+    }
+
+    #myaccounttabs .tab a {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    .news .newsandevents {
+        /*margin-left: 20px;
+        margin-right: 20px;
+        width: 90% !important;
+        margin-bottom: 24px !important;*/
+    }
+
+    .news .item {
+        min-height: 420px;
+    }
+
+    .news .justawrap {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #myaccounttabs {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .etabs.centeredRow {
+        padding-left: 0px;
+    }
+
+    #myaccounttabs .tab {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+
+
+    .contactForm h2 {
+        width: 100% !important;
+    }
+
+    .courseOptions.studyTexts p {
+        margin-left: 0px !important;
+        margin-right: 0px !Important;
+    }
+
+    .study-materials.acca table p {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .study-materials.acca table h3 {
+        padding-left: 0px;
+    }
+
+    .partner-organisations .item {
+        float: left;
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .emailLog {
+        display: none !important;
+    }
+
+    .blueTitleStrip .breadcrumb {
+        padding-top: 12px;
+        padding-left: 20px;
+    }
+
+    .contactForm.registerInterest {
+        margin: 0px !important;
+        margin-right: 0px;
+        float: none !important;
+        min-height: 0px;
+        height: auto;
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+
+    .regInterest .inner {
+        width: 90%;
+    }
+
+    .mobilePadding {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .homeSearchEWI {
+        width: 100%;
+        float: left;
+        position: initial;
+        height: auto;
+        top: initial;
+        max-width: 100%;
+    }
+
+    .viewAllbutt {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        background-size: 6px 10px;
+        background-position: 72% 58%;
+    }
+
+    .mobWidth {
+        width: 52%;
+        clear: both;
+    }
+
+    .cta33.fullGreyimg h2 {
+        font-size: 27px;
+    }
+
+    .homeSearchEWI .search {
+        background-color: #fff;
+    }
+
+    .homeSearchEWI .studymat, .homeSearchEWI .search, .homeSearchEWI .courses {
+        width: 100%;
+        min-height: 90px;
+        position: relative;
+    }
+
+    .homeSearchEWI .courses, .homeSearchEWI .studymat {
+        width: 90%;
+    }
+
+    .twitterFeed, .twitTitle, .connectTwit {
+        display: none !important;
+    }
+
+    .news.smallbg #homeslider h3 {
+        top: 33%;
+        font-size: 20px;
+    }
+
+    #basketarea {
+        width: 100%;
+        float: left;
+    }
+
+    .static.basket {
+        position: absolute !important;
+        right: 54px;
+    }
+
+    .order-details .orderAddress {
+        padding-left: 20px;
+        float: left;
+        text-align: left;
+        margin-bottom: 25px;
+        margin-top: -54px;
+        margin-right: 15px;
+    }
+
+    .searchIcon {
+        width: 16px;
+    }
+
+    fieldset legend {
+        left: -1px;
+        width: 101.8%;
+        display: none !Important;
+    }
+
+    div legend {
+        display: none;
+    }
+
+    fieldset.login:before {
+        Content: "Login";
+        background-color: #313840;
+        display: block;
+        color: #fff;
+        width: 100%;
+        font-family: 'SupriaSansW01-CdMedium' !important;
+    }
+
+    .static.basket a {
+        margin-right: 0px !important;
+    }
+
+    .searchButt {
+        right: 30px;
+    }
+
+    .register .submitButton input {
+        top: 25px !important;
+        margin: 0 auto;
+        float: none;
+        max-width: 100%;
+        width: 97.5% !Important;
+    }
+
+    .order-details .myWrap {
+        float: left;
+        overflow: auto;
+        width: 100%;
+        padding-bottom: 18px;
+    }
+
+    .regPage fieldset legend {
+        margin-bottom: 10px;
+    }
+
+    fieldset.register {
+        height: 373px;
+    }
+
+    .regPage h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+
+    .regPage fieldset p {
+        margin-bottom: 0px;
+        max-width: 83%;
+    }
+
+    .featuredNews .overImg, .featuredNews .otherNewsbits {
+        width: 100% !important;
+        float: left;
+    }
+
+    .otherNewsbits a {
+        width: 100% !important;
+    }
+
+    p.featuredcasestudy {
+        display: none;
+    }
+
+    .featuredNews .overImg {
+        background-size: contain !Important;
+    }
+
+    .featuredNews .overImg {
+        min-height: 135px;
+    }
+
+    .news .justawrap {
+        margin-top: 0px !Important;
+    }
+
+    .justawrap p.featuredcasestudy {
+        display: block;
+        padding-left: 0px !important;
+        max-width: 85%;
+        padding-right: 0px !important;
+    }
+
+    .register #ctl00_MainContent_RegisterUser_CreateUserStepContainer_UserName, .register #ctl00_MainContent_RegisterUser_CreateUserStepContainer_Password, .register #ctl00_MainContent_RegisterUser_CreateUserStepContainer_ConfirmPassword {
+        width: 100% !important;
+    }
+
+    .addPad {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .orderAddress {
+        margin-top: 0px !important;
+    }
+
+    #basketarea h2 {
+        padding-left: 20px;
+    }
+
+    #basketarea a {
+        float: left;
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .news .boxmodel p {
+        width: 79%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .articleText {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+        .articleText:last-child, .news .boxmodel p.articleText:last-child {
+            margin-bottom: 20px;
+        }
+
+    .studymat, .courses {
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .findoutMore, .td24.blueimg .findoutMore {
+        bottom: 20px !important;
+    }
+
+    .courses {
+        margin-bottom: 30px;
+    }
+
+    .justawrap {
+        width: 100%;
+    }
+
+    .newsBoxTitle {
+        margin-bottom: 20px !important;
+    }
+
+    .viewAllbutt {
+        font-size: 19px !important;
+        position: initial;
+        height: 30px !important;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .justawrap {
+        margin-top: -30px;
+    }
+
+    #searchbox {
+        display: none !important;
+    }
+
+    .thaLine {
+        border-bottom: 1px solid #d6d6d6;
+        float: left;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+    }
+
+    .homeSliderText {
+        /*-moz-transform: translateY(60%) !important;
+        transform: translateY(60%) !important;
+        -webkit-transform: translateY(60%) !important;*/
+        width: 90%;
+    }
+
+    .smallbg .homeSliderText {
+        top: 45%;
+        margin-left: 0px;
+    }
+
+    .newsSlider .pager {
+        display: none !important;
+    }
+
+    .newsSlider {
+        margin-bottom: 0px;
+    }
+
+    .homeSearchEWI {
+        background-color: #e7e7e7;
+        min-height: 362px !important;
+    }
+
+    .newsBoxTitle {
+    }
+
+    .cta33 {
+        position: relative;
+    }
+
+    .greyCTA {
+        width: 100%;
+        background-size: cover;
+    }
+
+    #siteSearch {
+        width: 85%;
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding: 9px;
+        top: initial;
+        margin-top: 20px;
+        position: relative;
+        border: 1px solid #c4c4c4;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .my-account #ctl00_MainContent_rightHandMenuDD {
+        display: none !important;
+    }
+
+    .my-account .contactForm.registerInterest.courseInfo {
+        min-height: 820px;
+    }
+
+
+    .contactForm.registerInterest label {
+        width: 100%;
+    }
+
+    .contactForm2 {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+        .contactForm2 input, .contactForm2 select, .contactForm2 textarea {
+            margin-left: 0;
+            width: calc(100% - 6px);
+            font-size: 10px;
+            float:left;
+        }
+
+        .contactForm2 select {
+            width: 100%;
+        }
+
+        .contactForm2 textarea {
+            width: 95.5%;
+            height: 68px;
+        }
+
+    .contactForm.registerInterest {
+        width: 100%;
+    }
+
+        .contactForm.registerInterest.courseInfo input, .contactForm.registerInterest.courseInfo textarea {
+            width: 95%;
+        }
+
+            .contactForm.registerInterest.courseInfo input[type=checkbox] {
+                float: left !important;
+                margin-left: 2px;
+                margin-right: 10px;
+            }
+
+    .subterms span {
+        float: left;
+        width: 87%;
+        text-align: left;
+        margin-top: -2px;
+        text-align: justify;
+    }
+
+    .orderDetails {
+        min-width: 940px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #myaccount3 {
+        overflow: auto;
+    }
+
+    .my-account tbody, .basket tbody {
+        display: table-row-group;
+    }
+
+    .my-account tr, .basket tr {
+        display: table-row;
+    }
+
+    .my-account td, .basket td {
+        display: table-cell;
+    }
+
+    .my-account .tbutt {
+        float: none !important;
+        margin: 0 auto;
+        display: block;
+        width: 90% !important;
+        margin-top: 30px !important;
+    }
+
+    .basketWrapper {
+        float: left;
+        overflow: auto;
+        width: 100%;
+    }
+
+    .atss {
+        display: block !important;
+    }
+
+    .imgLink .overImg {
+        width: 100% !important;
+    }
+
+    #basketarea input.tbutt {
+        max-width: initial;
+        width: 27%;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .news .imgLink {
+        width: 100% !important;
+    }
+
+    .our-courses.ifrs.smallbg #homeslider .inner, .our-courses.core-bussiness-skills.smallbg #homeslider .inner, .study-materials.ifrs.smallbg #homeslider .inner, .study-materials.acca.smallbg #homeslider .inner {
+        min-height: 50px;
+    }
+
+    .accountInfo label {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .basket .orderDetails {
+        min-width: 940px !important;
+    }
+
+    .news-and-events p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .registerBox.loginPage .tbutt {
+        margin-top: 25px;
+    }
+
+    .submitButton input, .registerBox.loginPage .tbutt {
+        float: none;
+        width: 100%;
+        border: none;
+        max-width: 271px;
+        padding: 12px;
+        background-color: #055693;
+        color: #fff;
+        font-size: 16px;
+        margin-left: 40px;
+        position: relative;
+        margin-right: 42px;
+        top: 4px;
+        width: 60% !important;
+        right: 0px !important;
+        margin-right: 20px;
+    }
+
+    .accountInfo {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #ctl00_MainContent_LoginUser_UserName, #ctl00_MainContent_LoginUser_Password {
+        width: 93%;
+        float: left;
+    }
+
+    .registerBox.loginPage {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .registerPage h2 {
+        margin-top: 30px;
+    }
+
+    .registerPage h2, .registerPage p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .registerBox.loginPage .tbutt {
+        margin: 0px;
+        margin-left: 20px;
+        margin-top: 20px !important;
+        width: 80% !important;
+        float: left;
+        max-width: 90% !important;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .login p {
+        padding-left: 0px;
+        margin-left: 20px;
+        padding-right: 0px;
+    }
+
+    .login #ctl00_MainContent_LoginUser_RememberMe {
+        float: left;
+        clear: both;
+        margin-top: 10px;
+    }
+
+    fieldset.login {
+        height: 330px;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .login .submitButton {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0 auto;
+        float: none;
+        width: 89%;
+    }
+
+        .login .submitButton input {
+            top: 25px !important;
+            margin: 0 auto;
+            float: none;
+            max-width: 100%;
+            width: 100% !important;
+        }
+
+    .twoColsixItem.contact {
+        padding-left: 15px;
+    }
+
+    .cta33.fullGreyimg .mobWidth {
+        width: 71%;
+    }
+
+    .td25.sidebar .cta33 .findoutMore {
+        position: initial;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contentWrapper.productPage h2 {
+        padding-left: 0px;
+    }
+
+    .contactForm textarea {
+        width: 87%;
+        margin-left: 9px;
+        margin-right: 15px;
+        margin: 0 auto;
+        float: none;
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .contactForm input, .contactForm select {
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+        margin-bottom: 15px;
+        height: 35px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .contactForm.compsignup input {
+        float: left;
+    }
+
+    .thanksMessage {
+        height: auto;
+    }
+
+    .formContain #docreq_lastname {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    input.tbutt {
+        /*max-width: initial;*/
+        width: 92%;
+        float: right;
+        height: 29px;
+        padding: 6px;
+    }
+
+    .leftFind, .rightFind {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+        .leftFind a, .rightFind a {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .leftFind h3, .rightFind h3 {
+            width: 96%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+    .extraTxt {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    a.circlelink, a.rectanglelink, .thirtyThreeBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .thirtyThreeBox {
+        width: 86.666666667%;
+        margin-left: 8%;
+        margin-right: 10%;
+    }
+
+
+
+    .clientstable, tbody, tr, td, td img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .newsSignup tr.padBottom {
+        display: none;
+    }
+
+    .newsSignup .inner table td.register {
+        height: 34px;
+    }
+
+    .cterms {
+        margin-top: 20px;
+    }
+
+    .newsSignup input.tbutt {
+        margin-left: 1px !important;
+        width: 100.5%;
+    }
+
+    td {
+        width: 100% !important;
+    }
+
+
+    .clientstable img {
+        max-width: 305px !important;
+    }
+
+    .centeredRow, .centeredRowLarge, .footerInner {
+        /*max-width: 100% !important;
+width: 91% !important;
+padding: 0px;
+margin: 0px;
+padding-left: 4.5%;
+padding-right: 4.5%;*/
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+
+    .actualHome .bx-wrapper {
+        margin-bottom: 1em;
+        float: left;
+    width: 100%;
+    }
+    .homeFeed .item
+    {
+        min-height:100px;
+    }
+
+    .homeFeed .overImg {
+        width: 100%;
+        height: auto;
+        min-height: 170px;
+        margin-top: 0px;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .footer .menu ul.menuitem li {
+        clear: none;
+        width: auto;
+        margin-right: 3px;
+        margin-left: 3px !important;
+    }
+
+    .centeredRow .inner, .centeredRowLarge .inner {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .socialFeed .inner {
+        width: 100%;
+    }
+
+
+
+    .closeSearch {
+        top: 10px;
+        right: 10px;
+    }
+
+    .searchIconMobile {
+        display: block;
+        width: 23px;
+        position: absolute;
+        right: 16px;
+        top: 19px;
+        z-index: 1000000000;
+    }
+
+        .searchIconMobile img {
+            width: 23px;
+        }
+
+    .searchMain {
+        margin: 53px auto;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .searchPrimary {
+        float:left;
+    }
+
+    .searchInner {
+            width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#fff;
+    float: left;
+    }
+
+        .searchInner h1 {
+            width: 98%;
+            font-size: 24px;
+        }
+
+    .searchres {
+        width: 100%;
+        /*margin-right: 0;*/
+        max-width: 100%;
+    }
+
+
+    .googleMap {
+        width: 100%;
+        margin-top: 1em !important;
+        margin-bottom: 0em;
+    }
+
+    .flashdiv {
+        max-height: 304px;
+        /*margin-bottom: 2em;*/
+    }
+
+    .cta50.cta7 {
+        margin-left: 0px;
+    }
+
+    .rhmenu, .socialPanel {
+        display: none;
+    }
+    /*.td48 p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }*/
+
+    .title {
+        left: 50%;
+        margin-left: -36px;
+        width: 72px;
+        height: 72px;
+        margin-top: 6px;
+    }
+
+    .centeredRowLarge h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    .centeredRowLarge.homeFeed h1 {
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+
+    .title:after {
+        /*left: -18px;
+    width: 73px;
+    height: 73px;
+        top: -71px;*/
+    }
+
+    .burger span {
+        display: block;
+        width: 100%;
+        height: 4px;
+        margin-bottom: 5px;
+        background-color: #000;
+        border-radius: 5px;
+    }
+
+    .contactForm2 .subterms, .subterms, .contactForm .subterms {
+        float: left;
+        width: 100%;
+        font-size: 8px;
+        margin-bottom: 0em !important;
+        text-align: center;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    .compsignup .subterms {
+        float: left !important;
+        text-align: left;
+        font-size: 10px;
+        width: 100% !important;
+    }
+
+    .formContain #docreq_lastname, .formContain #docreq_postcode {
+        float: left !important;
+        margin-left: 0 !important;
+    }
+
+    .closeThanks {
+        padding-top: 30px !important;
+    }
+
+    #.title img {
+        margin-top: 11px;
+        width: 100%;
+        height: auto;
+        /*display:none;*/
+    }
+
+    .relContent {
+        width: 100%;
+        margin-right: 0px;
+        height: 173px;
+        margin-bottom: 21px;
+    }
+
+        .relContent h2 {
+            position: absolute;
+            color: #FFF;
+            bottom: 39px;
+            left: 32px;
+            font-size: 21px !important;
+            border-bottom: none !important;
+        }
+
+        .relContent img {
+            min-height: 165px;
+        }
+
+    .headertextRel {
+        font-size: 13px;
+    }
+
+
+
+    .HeaderOuter {
+        height: 48px;
+    }
+
+    #menuItem-0-3 {
+        padding-bottom: 0px;
+    }
+
+    #ctl00_menuUnder table {
+        width: 96% !important;
+    }
+    /*#ctl00_NavigationMenu {
+        padding-top: 22px;
+    }*/
+    .header {
+        position: relative;
+        /*top: 16px;*/
+        transform: none;
+        /* height: 45px; */
+        min-height: 26px;
+        padding-left: 0%;
+        margin-top: 0px;
+        height: 70px;
+        max-width: 100%;
+    }
+
+    .homeSliderText h1 {
+        width: 100% !important;
+        /*margin-bottom: 20px;*/
+    }
+
+    .courseOptions:last-child {
+        margin-bottom: 30px;
+    }
+
+    .courseOptions h2 {
+        margin-top: 0px !important;
+        width: 93.5% !important;
+    }
+
+    .courseOptions {
+        width: 90%;
+        margin-right: 0px;
+        float: none !important;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .bookBG {
+        background-image: none;
+    }
+
+    .cta50.studylanding {
+        background-image: none;
+        background-color: #31383f;
+        min-height: 337px;
+    }
+
+        .cta50.studylanding h2 {
+            margin-top: 0px !important;
+            width: 78% !important;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .cta50.studylanding h3 {
+            text-indent: 20px;
+        }
+
+        .cta50.studylanding p {
+            margin-top: 100px;
+            text-indent: 20px;
+            padding-right: 20px;
+        }
+
+    .cta33.optionsCTA li {
+        color: #373f47;
+        padding-right: 15px;
+        float: left;
+        width: 100%;
+    }
+
+    .study-materials .ourEbooks {
+        margin-top: 30px;
+    }
+
+    .cta50.greyBG.bookBG {
+        margin-bottom: 35px;
+    }
+
+    .study-materials .cta33.optionsCTA ul {
+        margin-bottom: 20px;
+        float: left;
+    }
+
+    .study-materials .cta33.optionsCTA {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
+    }
+
+    .cta50.greyBGdark a {
+        right: initial;
+    }
+
+    .imageBox .inner img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .socialLinks li {
+        width: 50%;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+
+
+    .csclicks .dots {
+        position: relative;
+        top: 3px;
+    }
+
+    .contact #flashdiv {
+        height: 200px;
+    }
+
+    .clientlist li {
+        width: 100%;
+        list-style: none;
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .clientlist li {
+        width: 100% !important;
+        list-style: none;
+        font-size: 19px !important;
+        line-height: 24px;
+        margin-bottom: 24px !important;
+    }
+
+
+
+    .clients .cknum4 {
+        padding-bottom: 160%;
+    }
+
+    .case-studies .cknum1 span {
+        font-size: 19px !important;
+        line-height: initial !important;
+    }
+
+    .ThirtyThreePercent, .toTopCTA.ThirtyThreePercent {
+        width: 100%;
+        margin-top: 0em;
+    }
+
+    .socialBase {
+        font-size: 19px;
+    }
+
+        .socialBase span {
+            margin-top: 27px;
+        }
+
+    .dircat {
+        height: auto !important;
+        margin-bottom: 1em !important;
+        max-width: 90%;
+    }
+
+    .storeRelated .item {
+        width: 100%;
+        /*height: 278px;*/
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .item.directory {
+        width: 90%;
+        /* margin: 0px auto; */
+        position: relative;
+        margin-left: 0%;
+    }
+
+    .cknum17.loadmoreitem .inner {
+        margin-top: 13%;
+    }
+
+    .featuredNews .newsandevents.item.news {
+        /*width: 100%;
+    background-color: #3db771;
+    height: auto;
+    float: left;*/
+    }
+
+    .cknum17.loadmoreitem {
+        width: 66%;
+    }
+
+    .hideMobile {
+        display: block;
+    }
+
+    .toTopButton a img {
+        display: block;
+        margin: 0 auto;
+        width: 15px;
+    }
+
+
+
+
+
+    .loadmoreitem {
+        background-color: #0ae4b3;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .twentyFiveWidthBox .inner p, .twentyFiveWidthBox .instainner p, .fiftyWidthBoxDouble .inner p, .fiftyWidthBoxDouble .instainner p {
+        font-size: 118.75%;
+    }
+
+    .menuPanel {
+        display: none;
+    }
+
+    ul.twoColsixItem li {
+        float: left;
+        width: 90% !important;
+    }
+
+    #menuwrapper {
+        position: absolute;
+        top: 79px;
+        z-index: 10000;
+        background-color: #f0f0f0;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        z-index: 1000000;
+        /*display:none;*/
+    }
+
+    .menu {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-top: none;
+        width: 100% !important;
+        height: auto;
+    }
+
+    .socialPanelBottom {
+        margin-top: 2em;
+        /* margin: 0 auto; */
+        /* width: 150px; */
+        float: none;
+        display: block;
+        position: relative;
+        clear: both;
+        margin-bottom: 0px;
+    }
+
+    .skiptranslate {
+        top: 0px;
+        margin: 0 auto;
+        width: 50%;
+        float: none;
+        display: block;
+        position: relative;
+        clear: both;
+        margin-bottom: 10px;
+    }
+
+    .menu ul {
+        /*width: 100% !important;*/
+        padding-top: 0px;
+    }
+
+        .menu ul li, .menu ul li ul li, .menuTop ul li, .menuTop ul li ul li {
+            width: auto;
+            height: auto;
+            text-align: center;
+            display: block;
+            clear: both;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 13px;
+        }
+
+            .menu ul li a, .menu ul li ul li a {
+                padding: 0px !important;
+                margin: 0px !important;
+            }
+
+    .menu a:hover > .ddpanel, .menu a:hover > .ddpaneltop {
+        display: none;
+    }
+
+    .footer .menu a {
+        text-align: center;
+        margin-right: 0px;
+        padding: 2.5px;
+        /*margin-right: 48px;*/
+        /* padding-left: 0px; */
+        padding-bottom: 3px;
+        text-transform: none;
+        text-align: left;
+        color: #fff;
+        font-size: 11px;
+    }
+
+    .footer .menu ul {
+        margin-bottom: 0;
+        position: absolute !important;
+        bottom: 2px;
+    }
+
+    .hovered, .menu a:hover {
+        background-color: transparent;
+    }
+
+    /*#google_translate_element
+    {
+        text-align: center;
+    display: block;
+    clear: both;
+    margin-top: 1em;
+    }*/
+
+    .rhMenu {
+        display: none;
+    }
+
+    .rightHandMenuDD {
+        max-width: 100%;
+        height: 30px;
+        border: 1px solid #ccc;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: none;
+    }
+
+
+
+
+    .fullWidthBox {
+        /*padding-bottom:87.805873%;*/
+        /*padding-bottom:134.805873%;*/
+        min-height: 150px;
+    }
+
+    .pressReleases.fullWidthBox, .thingsToDo.fullWidthBox {
+        width: 100% !important;
+        padding-top: 2em;
+        z-index: 1;
+        background-color: #000;
+    }
+
+    .legalBriefings.fullWidthBox, .pressReleases.fullWidthBox {
+        width: 100%;
+    }
+
+    .pressReleases.fullWidthBox {
+        /*margin-top: 20px*/
+    }
+
+
+    .legalBriefings .item {
+        display: inline-block;
+        float: left;
+        width: 145px;
+        font-size: 12px;
+        /* max-height: 260px; */
+        height: 282px;
+        overflow-y: hidden;
+        overflow-y: visible;
+        margin-right: 15px;
+        margin-bottom: 31px;
+        position: relative;
+    }
+
+        .legalBriefings .item img {
+            width: 128px;
+            height: auto;
+            min-height: 160px;
+            outline: 1px solid #CCC;
+            margin-bottom: 14px;
+        }
+
+    .pressReleases .item:nth-child(2n+0) {
+        margin-right: 0px;
+    }
+
+    .pressReleases .item {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+        .pressReleases .item img {
+            height: auto;
+            min-height: 0px;
+            outline: 1px solid #CCC;
+            margin-bottom: 14px;
+        }
+
+        .newsandevents a, .pressReleases .item span {
+            display: inline-block;
+            float: left;
+            width: 100%;
+            font-size: 18px;
+            line-height: 1.2em;
+            
+        }
+
+    .casestudyitem {
+        /*padding-bottom:87.805873% !important;*/
+        /*padding-bottom:62.64274061990212%;*/
+        padding-bottom: 84.805873% !important;
+    }
+
+
+
+    .fiftyWidthBox, .twentyFiveWidthBox, .fiftyWidthBoxDouble, .twoThirdBox {
+        position: relative;
+        width: 80% !important;
+        margin: 0px auto;
+        float: none;
+    }
+
+    .slidertwentyfive, .bx-wrapper .bx-viewport, .smallslider {
+        /*height: 240px !important;*/
+    }
+
+    .bx-controls-direction {
+        display: none !important;
+    }
+
+    .bx-controls.bx-has-pager {
+        /*position: absolute;
+        position: absolute;
+        width: 100%;
+        bottom: 0px;*/
+        top:70%;
+    }
+
+    .newsBoxTitle {
+        padding-left: 15px;
+    }
+
+    .linkz {
+        padding-left: 0px !important;
+    }
+
+        .linkz .findMore {
+            width: 90% !important;
+        }
+
+    .readLess.popme {
+        padding-left: 0px;
+    }
+
+    .cta50.greyBG ul li {
+        margin-left: 0px !important;
+    }
+
+    .linkz .greyBorder {
+        width: 93%;
+        margin-top: 0px;
+    }
+
+    .ctadrop p {
+        padding-left: 0px !important;
+    }
+
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        /*bottom: 15px;
+        right: initial;
+        width: 100%;
+        position: relative;
+        text-align: center;*/
+    }
+
+    .sectorCTA .item {
+        min-width: 114px;
+        width: 50%;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 21px;
+        outline: 10px solid #F7F6F3;
+    }
+
+        .sectorCTA .item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .sectorCTA .item a {
+            max-width: 100%;
+            font-size: 13px;
+        }
+
+    .findUs, introText {
+        font-size: 30px;
+    }
+
+    .twoThirdBox table, .textcontent table {
+        margin-top: 0px;
+    }
+
+    .work {
+        margin-bottom: 30px;
+    }
+
+    .cta33 p {
+        padding-left: 0px !important;
+    }
+
+    .cta33.optionsCTA p {
+        padding-left: 20px !important;
+    }
+
+    .cta33.optionsCTA h3:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        top: -38px;
+        left: 0px;
+        height: 0;
+        z-index: -1;
+        border-bottom: 100px solid #34c5ce;
+        border-right: 100px solid transparent;
+    }
+
+    #homeslider p {
+        display: none !important;
+    }
+
+    .boxesInteractive {
+        width: 75%;
+        margin: 0 auto;
+        float: none;
+        padding-top: 10px;
+    }
+
+    .inner table td img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .homeslider {
+        /* height: 191px; */
+    }
+
+    .introPara, .fullWidthBox .inner h1.newH1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fullWidthBox .inner h1.newH1 {
+        font-size: 18px;
+    }
+
+    .homeSliderText h1 {
+        /*padding-left: 20px;*/
+    }
+
+    .smallbg .homesliderHolder2 .homeSliderText h1 {
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+
+    .td48 {
+        width: 100% !important;
+        float:left;
+        padding:0px;
+    }
+
+    .td24 {
+        width: 95% !important;
+    }
+
+    .td4 {
+        display: none !important;
+    }
+
+
+    .fullWidthBox .inner {
+        /*padding-top:16%;*/
+        width: 90% !important;
+    }
+
+        .fullWidthBox .inner h1 {
+            font-size: 22px;
+            max-width: 100%;
+            margin: 1em auto;
+        }
+
+            .fullWidthBox .inner h1.heading1 {
+                font-size: 16px;
+            }
+
+        .fullWidthBox .inner h2, .news .heading1, .heading1 {
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            /*float: none;*/
+        }
+
+            .fullWidthBox .inner h2.mobileExtra {
+                float: none;
+                margin: 0px;
+                margin-top: 20px;
+                font-size: 24px;
+            }
+
+    .fullWidthBox.regInterest .inner h2.mobileExtra {
+        margin-bottom: 20px;
+    }
+
+    .centeredRow.socialShare {
+        height: 6em !important;
+        display: block;
+        clear: both;
+        width: 90%;
+    }
+
+    .floater {
+        width: 100%;
+        padding-top: 0em !important;
+        text-align: right;
+        padding-bottom: 1em;
+    }
+
+    .centeredRow.socialShare .inner {
+        position: relative;
+        display: block;
+        clear: both;
+    }
+
+    .ctaover p {
+        font-size: 11px;
+        width: 90%;
+        margin: 4px auto;
+        margin-top: 7px !important;
+    }
+
+        .ctaover p br {
+            display: none;
+        }
+
+
+    .relContent.pdfContent h2 {
+        top: 40px;
+    }
+
+    .fullWidthBox.imageBox {
+        padding-bottom: 62%;
+    }
+
+    .fiftyWidthBox.imageBox {
+        padding-bottom: 62%;
+    }
+
+    .twoThirdBox {
+        padding-bottom: 20px;
+    }
+
+    .sharelinks {
+        padding-bottom: 69% !important;
+    }
+
+    .fullWidthBox .socialclicks {
+        padding-left: 7%;
+        padding-bottom: 9%;
+        /* padding-top: 2.5%; */
+    }
+
+    .twentyFiveWidthBox .socialclicks {
+        padding-left: 7.5%;
+    }
+
+    .fiftyWidthBox .inner, .twentyFiveWidthBox .inner, .fiftyWidthBoxDouble .inner {
+        /*padding-left:7%;
+        padding-right:7%;*/
+    }
+
+    .dmarker {
+        display: none;
+    }
+
+    .fiftyWidthBox .inner p, .twentyFiveWidthBox .inner p, .fiftyWidthBoxDouble .inner p, .twoThirdBox .inner p {
+        font-size: 14px;
+    }
+
+    .showmobileT {
+        display: block;
+    }
+
+    .hidemobileT {
+        display: none;
+    }
+
+    .cta1, .cta2 {
+        height: 240px;
+    }
+
+        .cta1 h3, .cta2 h3 {
+            font-size: 15px;
+        }
+
+        .cta1 p, .cta2 p {
+            display: none;
+        }
+
+        .cta1 a, .cta2 a {
+            width: 93%;
+        }
+
+        .cta1 img, .cta2 img {
+            margin-top: 12px;
+        }
+
+    .cta33, .cta50 {
+        width: 100%;
+        max-width: 100%;
+        float: left;
+        /*margin:0px !important;*/
+    }
+
+    .cta15 {
+        margin: 0px;
+    }
+
+    .footer {
+        width: 100%;
+        max-width: 100%;
+        float: left;
+        /*height: auto;
+    padding-bottom: 1em;*/
+    }
+
+    .footerInner.noLeft {
+        padding-left: 0px;
+        border-bottom: 1px solid #646464;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+
+    .footerInner h4 {
+        margin-top: 30px;
+    }
+
+    .footerInner {
+        width: 89% !important;
+        border-left: none;
+        min-height: 1px;
+        background-color: #31383f;
+    }
+
+    .fiftyWidthBoxDouble .instainner .bttrlazyloading-wrapper {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .csclicks, .fullWidthBox .csclicks {
+        padding-top: 8.5%;
+        padding-bottom: 8.5%;
+        padding-left: 2.5%;
+        font-size: 15px;
+        width: 97.5%;
+    }
+
+    .cstitle, .hidemobile, .fiftyWidthBox.brownbox.boxtheme9 {
+        display: none;
+    }
+
+    .brownbox .inner table img {
+        width: 30px;
+        height: auto;
+    }
+
+    .fholder {
+        padding: 0px;
+    }
+
+    .footerLinks {
+        padding-top: 16px;
+        font-size: 15px;
+        text-align: left;
+        float: left !important;
+        padding-left: 22px;
+    }
+
+    .loadmoreitem {
+        padding-bottom: 21% !important;
+    }
+
+    p.lmp {
+        margin-top: 0%;
+    }
+
+    .menuUnder {
+        display: block;
+    }
+
+    .menuTable {
+        margin-top: 25px;
+        margin-bottom: -5px;
+    }
+
+    .bttrlazyloading-wrapper {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .subMenuServices {
+        height: auto;
+        top: 10px;
+        float: left;
+        position: relative;
+        margin-bottom: 10px;
+        margin-top: -27px;
+        border-top: none;
+    }
+
+    .csclicks .thelinks {
+        width: 80%;
+    }
+
+    .subMenuServices ul {
+        padding-right: 0px !important;
+    }
+
+    .menuTable td {
+        padding-bottom: 25px;
+    }
+
+    .bttrlazyloading.animated.fadeIn {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .fixed {
+        position: relative !important;
+    }
+
+    .td71 {
+        width: 100% !important;
+    }
+
+    .td2 {
+        display: none;
+    }
+
+    .stores .td2 {
+        display: block;
+    }
+
+    .sponsorPartnerList, .publicationslist {
+        width: 95%;
+    }
+
+    .footerInner.noRight a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .item img {
+        margin-bottom: 25px;
+    }
+
+    .basket #ctl00_MainContent_rightHandMenuDD {
+        display: none !important;
+    }
+
+    .basket .orderDetails {
+        margin-bottom: 30px;
+    }
+
+    .publications .item a img {
+        margin-top: 10px;
+        float: right;
+        margin-left: 10px;
+        position: relative;
+        margin-right: 216px;
+    }
+
+    .td25 {
+        width: 100%;
+    }
+
+    .sponsors {
+        border-bottom: none;
+    }
+
+    .cta17.cta33 {
+        margin-top: 0px;
+    }
+
+    .brandOfWeek {
+        width: 100%;
+        /*height: 240px;*/
+        overflow: hidden;
+    }
+
+        .brandOfWeek .fitImage {
+            width: 150% !important;
+            height: 100% !important;
+        }
+
+    .cookieTable {
+        display: none;
+    }
+
+    .cookieTableDownload {
+        display: block;
+    }
+
+    .whiteFooter span {
+        padding-top: 10px;
+        text-align: left;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .goog-te-menu-frame {
+        width: 100% !important;
+    }
+
+    .inner table td .followDir img {
+        width: auto !important;
+        float: left;
+        max-width: 22px;
+    }
+
+    p.downloadMenu {
+        float: left;
+        width: 100%;
+    }
+
+    .socialBox {
+        max-width: 100%;
+        width: 72.92%;
+        height: 0px;
+        margin: 0 auto;
+        float: none;
+        margin-top: 20px;
+        padding-bottom: 72.92%;
+    }
+
+        .socialBox.fb {
+            margin-left: auto;
+        }
+
+        .socialBox.yt {
+            margin-bottom: 20px;
+        }
+
+        .socialBox:after {
+            left: 43%;
+            bottom: 10px;
+        }
+
+    .tweettext {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .fullWidthBox .inner .followDir p {
+        margin-right: 10px;
+        margin-top: 6px;
+    }
+
+    .formContain {
+        width: 100%;
+    }
+
+    .backtotop span {
+        width: 50%;
+    }
+
+    h3.gbcText {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 12px;
+        margin-bottom: 20px;
+        line-height: 14px;
+        width: 90%;
+    }
+
+    .fullWidthBox.category {
+        min-height: 90px;
+    }
+
+    .dircat a {
+        display: block;
+        clear: both;
+        margin-bottom: 1em;
+        margin-left: 7px;
+        margin-right: 7px;
+        text-transform: capitalize;
+        font-size: 16px;
+            width: 200px;
+    /* text-align: center; */
+    margin: 0em auto 1em auto;
+    }
+
+    .fullWidthBox.greyBox {
+        min-height: 55px;
+    }
+
+    .fullWidthBox .inner h2, h2.filterTitle, .centeredRow .inner h2, .heading1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        max-width: 90%;
+        line-height: 1em;
+        clear: both;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .homeFeed .item.opac3
+    {
+        margin-right:auto;
+    }
+
+    .centeredRow .inner h2 {
+        margin-top: 30px;
+        /* margin-bottom: 37px; */
+        width: 90%;
+        margin-left: 0%;
+        float: left;
+        width: 100%;
+        font-size: 26px;
+    }
+
+.thingsToDo .overImg {
+    width: 100%;
+    height: 0px;
+    padding-bottom: 63%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.thingsToDo .item {
+    padding-bottom: 123%;
+    height: 0px;
+    margin-bottom: 2em;
+}
+
+.thingsToDo .newsandeventsheader {
+    font-size: 24px;
+    width: 100%;
+    margin-top: 1em;
+    margin-left: 0px;
+}
+
+h2.filterTitle.diff {
+    margin-bottom: 0;
+}
+
+.item.directory a {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.centeredRow.shops {
+    width: 90%;
+}
+
+.relatedContent .ThirtyThreePercent {
+    width: 100%;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-top: 1em;
+    margin-bottom:0.5em;
+    clear:both;
+}
+
+
+.storeRelated h2{
+    margin-left:0% !important;
+}
+
+.storeRelated .item h3 {
+    /*font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 14px;
+    float: none;
+    margin-top: 0;
+    padding-bottom: 10px;*/
+}
+
+.newsandeventsheader {
+    line-height: 1.2em;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.pager {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+    .pager a {
+        font-size: 14px;
+        margin-right: 10px;
+        float: left;
+    }
+
+        .pager a img {
+            width: 14px;
+        }
+
+.innerPager {
+    width: 74.91%;
+}
+
+.find-us p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.backtotop {
+    /*background-color: #e2e2e2;*/
+    margin-top:-1px;
+}
+
+.storeRelated .item .overImg {
+    /*height: 230px;*/
+    margin-bottom: 10px;
+}
+
+.marginonimage, .history td img {
+    margin-bottom: 10px;
+}
+
+.video-js {
+    height: auto !important;
+    margin-bottom: 20px;
+}
+
+/*table.contactTable p, table.contactTable a, p.smallText {
+    line-height: 14px;
+    text-align: center;
+    margin: 0 auto;
+}*/
+
+.legals .fullWidthBox .inner h2, .legals .fullWidthBox .inner h3 {
+    
+    font-size: 12px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    float: none;
+    margin-top: 0;
+    width: 100%;
+}
+
+.find-us h3 {
+    width: 100%;
+}
+
+.searchHeader {
+       padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    float: left;
+    width: 94.5%;
+    margin-left: 5.5%;
+    
+    font-size: 20px;
+}
+
+.video-js .vjs-tech {
+    position: relative !important;
+}
+
+.vjs-using-native-controls .vjs-poster {
+    display: inline-block;
+}
+
+.inner table td div.vjs-poster {
+    position: absolute;
+}
+
+.floater h4 {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.floater {
+    width: 70%;
+}
+
+    .floater span {
+        float: left;
+    }
+
+    .floater span {
+        float: none;
+        text-align: center;
+    }
+
+.stButton {
+    margin-right: 2px;
+    margin-left: 0px;
+}
+
+.st_email .stButton {
+    margin-right: 0;
+}
+
+.leftForm, .rightForm {
+    width: 100%;
+    margin-top: 0;
+}
+
+.contactForm .rightForm .subterms {
+    width: 100%;
+}
+
+.regInterest.fullWidthBox {
+    padding-bottom: 1em;
+    height:auto;
+}
+
+.socialPanelTop img, .socialPanelBottom img {
+    width: 23px;
+}
+
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    /*.burger
+    {
+        top:13px;
+    }*/
+
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .centeredRow {
+        width: 95% !important;
+    }
+
+    .infoPanel .courseDetails h2, .infoPanel .courseDetails p {
+        width: 96%;
+        clear: both;
+    }
+
+    #ctl00_NavigationMenu ul {
+        float: right !important;
+        margin-right: 26px;
+    }
+
+    .infoPanel {
+        min-height: 309px;
+    }
+
+        .infoPanel .courseDetails h3 {
+            font-size: 14px;
+        }
+
+    .sponsorPartnerList, .publicationslist {
+        width: 58.3%;
+    }
+
+    .infoPanel .imgBox h3 {
+        top: 170px;
+    }
+
+    .infoPanel .courseDetails {
+        width: 70%;
+        display: inline-block;
+        padding-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) and (orientation: portrait) {
+
+
+    .centeredRow {
+        width: 95%;
+    }
+
+
+    .cta25 {
+        width: 46% !important;
+        float: left;
+        margin-right: 4%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .sponsorPartnerList, .publicationslist {
+        width: 100%;
+    }
+
+    .item img {
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .training-and-courses.individual .cta17.cta33 {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-device-width: 319px) and (max-width: 767px) and (orientation: landscape) {
+
+    td {
+        float: left;
+    }
+
+    .cta17.cta33, .cta18.cta33, .cta19.cta33 {
+        width: 48% !important;
+        margin-left: 3px !important;
+        margin-bottom: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .sponsorPartnerList {
+        width: 49%;
+    }
+
+    .item {
+        float: left;
+    }
+
+    .sponsors {
+        border-bottom: 1px solid #b9b8b8;
+    }
+
+
+    .publications .item a img {
+        margin-right: 450px;
+    }
+}
+
+@media only screen and (min-device-width : 479px) and (max-width : 767px) {
+
+    .homeFeed .item {
+                width: 48.7%;
+    float: left !important;
+    float: none;
+    position: relative;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    margin-right: 2.5%;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    /* margin-top: 4.5em; */
+    }
+
+    .homeFeed .item.opac1 {
+    margin-right: 0% !important;
+}
+    .homeFeed .item.opac1, .homeFeed .item.opac1 {
+    /*margin-right: 2.5%;*/
+}
+}
+
+@media only screen and (min-device-width : 360px) and (max-width : 768px) {
+    .footer .menu ul.menuitem li {
+        clear: none;
+        width: auto;
+        margin-right: 6px;
+        margin-left: 6px !important;
+    }
+}
+
+@media only screen and (min-device-width : 319px) and (max-width : 640px) {
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-width : 767px) {
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 541px) {
+    /* Styles */
+    html, body {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .fullWidthBox .inner p {
+        /*font-size: 100%;*/
+    }
+
+    #pageContainer {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .fiftyWidthBox, .twentyFiveWidthBox, .fiftyWidthBoxDouble {
+    }
+
+        .fiftyWidthBoxDouble .instainner img {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        .twentyFiveWidthBox .instainner img {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        .fiftyWidthBox .socialclicks {
+            padding-bottom: 8.5%;
+        }
+
+        .twentyFiveWidthBox .socialclicks {
+            padding-bottom: 8.5%;
+        }
+
+        .fiftyWidthBoxDouble .socialclicks {
+            padding-bottom: 8.5%;
+        }
+
+    .brownbox .inner table img {
+        max-width: 46px;
+        max-height: 46px;
+        width: 46px;
+        height: auto;
+    }
+
+    .footer table {
+        display: none;
+    }
+
+    .footerInner a {
+        font-size: 13px;
+    }
+
+
+    .fiftyWidthBoxDouble.whitebox {
+        padding-bottom: 202.5%;
+    }
+
+    .cta33, .cta50 {
+        width: 100%;
+        margin: 0px;
+        display: block;
+        clear: both;
+        float: left;
+        position: relative;
+    }
+
+    .cta17.cta33, .cta18.cta33, .cta19.cta33 {
+        width: 88%;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .homeFeed .item {
+        width: 100%;
+        margin-top: 2em;
+    }
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1226px) {
+    /* Styles */
+
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+}

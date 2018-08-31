@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'GT-Haptik-Medium';
+    src: url('gt-haptik-medium-webfont.eot');
+    src: url('gt-haptik-medium-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('gt-haptik-medium-webfont.woff') format('woff'),
+    url('gt-haptik-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'GT-Haptik-Regular';
+    src: url('gt-haptik-regular-webfont.eot');
+	src: url('gt-haptik-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('gt-haptik-regular-webfont.woff') format('woff'),
+    url('gt-haptik-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
