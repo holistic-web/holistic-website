@@ -2,7 +2,6 @@
 	<div class="Landing">
 
 		<a href="/static/library/Medes/index.html">Medes</a>
-		<a href="/static/library/ThisIsSoho/index.html">This is Soho</a>
 		<a href="/static/library/Zinnia/index.html">Zinnia</a>
 
 
