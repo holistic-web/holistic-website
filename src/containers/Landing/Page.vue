@@ -1,18 +1,17 @@
 <template>
 	<div class="Landing">
 
-		<app-loader class="Landing__loader"/>
+		<a href="/static/library/Medes/index.html">Medes</a>
+		<a href="/static/library/ThisIsSoho/index.html">This is Soho</a>
+		<a href="/static/library/Zinnia/index.html">Zinnia</a>
+
 
 	</div>
 </template>
 
 <script>
-import AppLoader from '../../components/AppLoader';
-
 export default {
-	components: {
-		AppLoader
-	}
+
 };
 </script>
 
