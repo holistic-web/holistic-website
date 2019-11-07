@@ -103,8 +103,6 @@ workflows:
           filters:
             branches:
               only:
-                - development
-                - master
 
       - deploy:
           requires:
@@ -114,5 +112,4 @@ workflows:
           filters:
             branches:
               only:
-                - development
                 - master
