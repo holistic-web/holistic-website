@@ -18,3 +18,4 @@ This app automatically deploys when changes are merged into the master branch. D
 ### Build Environment
 The following environment variables are required for building the app:
 - `BASE_URL`: the root url the site is being served under
+- `FIREBASE_TOKEN`: the token to authorize CI deployments
