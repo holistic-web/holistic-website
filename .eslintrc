@@ -5,6 +5,7 @@
 	},
 	"extends": [
 		"plugin:vue/essential",
+		"@vue/prettier",
 		"airbnb-base"
 	],
 	"rules": {
@@ -57,6 +58,12 @@
 		"padded-blocks": 0,
 
 		// ensure properties are either consistently in / without qutoes as needed
-		"quote-props": [2, "consistent-as-needed"]
+		"quote-props": [2, "consistent-as-needed"],
+
+		// vue templates should use tabs not spaces
+		"vue/html-indent": [1, "tab"],
+
+		// max attributes per line in html tempalte
+		"vue/max-attributes-per-line": 0
 	}
 }
