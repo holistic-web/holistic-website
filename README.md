@@ -1,4 +1,4 @@
-# new-holistic-website
+# holistic-website
 
 ## Project setup
 ```
