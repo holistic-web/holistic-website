@@ -1,21 +1,21 @@
-# holistic-website
+# Holistic Website
+A portfolio site to show off the things we've built and advertise our capabilities. It it written in Vue.js.
 
-> A Vue.js project
+## Running Locally
+1. Install required dependencies
+	```
+	npm install
+	```
 
-## Build Setup
+2. Run the development server (with hot reloading)
+	```
+	npm run serve
+	```
 
-``` bash
-# install dependencies
-npm install
+## Deploying
+This app automatically deploys when changes are merged into the master branch. Deployments can been seen in firebase here: https://console.firebase.google.com/u/0/project/holistic-website/hosting/main
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Build Environment
+The following environment variables are required for building the app:
+- `BASE_URL`: the root url the site is being served under
+- `FIREBASE_TOKEN`: the token to authorize CI deployments
