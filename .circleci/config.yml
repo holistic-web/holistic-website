@@ -72,11 +72,6 @@ jobs:
           name: deploy
           command: |
             npm run deploy
-      - persist_to_workspace:
-          root: ~/
-          paths:
-            - project
-            - .local
 
 workflows:
   version: 2.1
