@@ -29,12 +29,6 @@ jobs:
             - ~/.npm
             - ~/.cache
 
-      - run:
-          # Should create dist/ which will be stored by persist_to_workspace
-          name: Build
-          command: |
-            npm run build
-
       - persist_to_workspace:
           root: ~/
           paths:
