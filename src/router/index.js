@@ -1,9 +1,21 @@
 import Vue from 'vue';
-import Router from 'vue-router';
-import routes from './routes';
+import VueRouter from 'vue-router';
+import LandingPage from '../containers/landing/Page.vue';
 
-Vue.use(Router)
+Vue.use(VueRouter);
 
-export default new Router({
-  routes: [...routes]
+const routes = [
+	{
+		path: '/',
+		name: 'landing.page',
+		component: LandingPage
+	}
+];
+
+const router = new VueRouter({
+	mode: 'history',
+	base: process.env.BASE_URL,
+	routes
 });
+
+export default router;
