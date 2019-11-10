@@ -94,9 +94,6 @@ workflows:
           requires:
             - checkout_and_install
             - lint
-          filters:
-            branches:
-              only:
 
       - deploy:
           requires:
