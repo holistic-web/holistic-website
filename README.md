@@ -3,6 +3,8 @@ A portfolio site to show off the things we've built and advertise our capabiliti
 - https://holistic-website.web.app/
 - https://holistic-website.firebaseapp.com/
 
+The site is hosted at: https://holistic-website.web.app
+
 ## Running Locally
 1. Install required dependencies
 	```
