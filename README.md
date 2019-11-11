@@ -1,9 +1,5 @@
 # Holistic Website
-A portfolio site to show off the things we've built and advertise our capabilities. It it written in Vue.js. The site can be accessed from either of these links:
-- https://holistic-website.web.app/
-- https://holistic-website.firebaseapp.com/
-
-The site is hosted at: https://holistic-website.web.app
+A portfolio site to show off the things we've built and advertise our capabilities. It it written in Vue.js. The site is hosted at: https://holistic-website.web.app
 
 ## Running Locally
 1. Install required dependencies
