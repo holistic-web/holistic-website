@@ -2,7 +2,7 @@ version: 2.1
 
 jobs:
 
-  checkout_and_install:
+  checkout_and_install_website:
     docker:
       - image: circleci/node:8-stretch
     steps:
@@ -11,8 +11,8 @@ jobs:
       # If dependencies haven't changed, load them from CircleCI cache
       - restore_cache:
           keys:
-            - v3-npm-deps-{{ .Branch }}-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
-            - v3-npm-deps-{{ .Branch }}-{{ checksum "package.json" }}
+            - v3-npm-deps-{{ .Branch }}-{{ checksum "\website\package.json" }}-{{ checksum "\website\package-lock.json" }}
+            - v3-npm-deps-{{ .Branch }}-{{ checksum "\website\package.json" }}
             - v3-npm-deps-{{ .Branch }}
             - v3-npm-deps-
 
@@ -24,7 +24,7 @@ jobs:
             npm install
 
       - save_cache:
-          key: v3-npm-deps-{{ .Branch }}-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+          key: v3-npm-deps-{{ .Branch }}-{{ checksum "\website\package.json" }}-{{ checksum "\website\package-lock.json" }}
           paths:
             - ~/.npm
             - ~/.cache
@@ -73,21 +73,79 @@ jobs:
           command: |
             npm run deploy
 
+
+  checkout_and_install_cloud_functions:
+    docker:
+      - image: circleci/node:8-stretch
+    steps:
+      - checkout
+
+      # If dependencies haven't changed, load them from CircleCI cache
+      - restore_cache:
+          keys:
+            - v3-npm-deps-{{ .Branch }}-{{ checksum "\cloud-functions\package.json" }}-{{ checksum "\cloud-functions\package-lock.json" }}
+            - v3-npm-deps-{{ .Branch }}-{{ checksum "\cloud-functions\package.json" }}
+            - v3-npm-deps-{{ .Branch }}
+            - v3-npm-deps-
+
+      - run:
+          name: install NPM dependencies
+          command: |
+            sudo npm install -g npm
+            sudo apt-get update
+            npm install
+
+      - save_cache:
+          key: v3-npm-deps-{{ .Branch }}-{{ checksum "\cloud-functions\package.json" }}-{{ checksum "\cloud-functions\package-lock.json" }}
+          paths:
+            - ~/.npm
+            - ~/.cache
+
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - project
+            - .local
+
+  lint:
+    docker:
+      - image: circleci/node:8-stretch
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run:
+          name: run lint
+          command: |
+            npm run lint
+
+  deploy:
+    docker:
+      - image: circleci/node:8-stretch
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run:
+          name: deploy
+          command: |
+            npm run deploy
+
 workflows:
   version: 2.1
 
   CI_pipeline:
     jobs:
 
-      - checkout_and_install
+      - checkout_and_install_website
+      - checkout_and_install_cloud_functions
 
       - lint:
           requires:
-            - checkout_and_install
+            - checkout_and_install_website
+            - checkout_and_install_cloud_functions
 
       - build:
           requires:
-            - checkout_and_install
+            - checkout_and_install_website
             - lint
           filters:
             branches:
@@ -95,7 +153,8 @@ workflows:
 
       - deploy:
           requires:
-            - checkout_and_install
+            - checkout_and_install_website
+            - checkout_and_install_cloud_functions
             - lint
             - build
           filters:
