@@ -7,6 +7,9 @@ admin.initializeApp(functions.config().firebase);
 // // https://firebase.google.com/docs/functions/write-firebase-functions
 
 
+// // potential to add security validation below
+
+
 exports.sendEmail = functions.https.onCall(async (emailData, context) => {
 	console.log('> sendEmail called with: ' + JSON.stringify(emailData, null, 4));
 	const { message, name, senderEmail, receiptEmail } = emailData;
