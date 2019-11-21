@@ -1,6 +1,6 @@
 <template>
 	<div class="LandingPage">
-		<h1 class="LandingPage__title">Holistic Web</h1>
+		<h1 class="LandingPage__title">Holistic <span class="LandingPage__title--highlight">Web</span></h1>
 	</div>
 </template>
 
@@ -19,6 +19,10 @@
 	&__title {
 		font-size: 5rem;
 		color: #fff;
+
+		&--highlight {
+			color: cyan;
+		}
 	}
 }
 </style>
