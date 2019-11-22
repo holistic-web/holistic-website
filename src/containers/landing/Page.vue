@@ -1,69 +1,35 @@
 <template>
 	<div class="LandingPage">
 
-		<div class="LandingPage__text">
-			<h1 class="LandingPage__title">
-				<span class="helper-colour-white">></span> Holistic <span class="LandingPage__title--highlight">Web</span>
-			</h1>
-			<span class="LandingPage__tagline">
-				<span>Design. <span class="helper-colour-white">=></span> Build. <span class="helper-colour-white">=></span> Test. <span class="helper-colour-white">=></span> Repeat.</span>
-			</span>
-		</div>
+		<hero />
 
-		<span class="LandingPage__arrow"/>
-
-
+		<section class="LandingPage__content">
+			lorem bacon and ting - wagwan.
+		</section>
 	</div>
 </template>
 
-<style lang="scss">
-@import '../../styles/helper-classes';
+<script>
+import Hero from './components/Hero.vue';
+
+export default {
+	components: {
+		Hero
+	}
+};
+</script>
+
+<style lang="scss" scoped>
 @import '../../styles/theme';
 
 .LandingPage {
-	min-width: 100%;
-	min-height: 100vh;
-	background-image: url('../../assets/brick-wall.jpg');
-	background-size: cover;
-	background-position: center;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	flex-direction: column;
 
-	&__text {
-		padding: 0.5rem 0.5rem;
-		border-radius: $theme-border-radius;
-		background-color: $colour-blue;
-	}
-
-	&__title {
-		font-size: $theme-font-size-largest-extreme;
-		color: $colour-blue-light;
-		width: fit-content;
-		margin: 0;
-
-		&--highlight {
-			color: $colour-orange;
-		}
-	}
-
-	&__tagline {
-		color: $colour-orange-dark;
-		font-size: $theme-font-size-large;
-	}
-
-	&__arrow {
-		position: absolute;
-		bottom: 3rem;
-		right: 3rem;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-image: url('../../assets/arrow-spray.png');
-		transform: rotate(90deg);
-		width: 10rem;
-		height: 5rem;
+	&__content {
+		width: $theme-page-width-desktop;
+		padding: $theme-page-padding;
 	}
 }
-
 </style>
