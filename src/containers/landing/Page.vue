@@ -5,6 +5,8 @@
 </template>
 
 <style lang="scss">
+@import '../../styles/colours';
+
 .LandingPage {
 	min-width: 100%;
 	min-height: 100vh;
@@ -18,11 +20,12 @@
 
 	&__title {
 		font-size: 5rem;
-		color: #fff;
+		color: $colour-blue-light;
 
 		&--highlight {
-			color: cyan;
+			color: $colour-orange;
 		}
 	}
 }
+
 </style>
