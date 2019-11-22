@@ -2,7 +2,13 @@
 	<div class="LandingPage">
 
 		<hero />
-		<div class="PrescriptionPortfolio">
+		<div class="LandingPage__content">
+			We are Holistic Web, a software development and web design collective with offices in London and Los Angeles. As an international team of experienced, enthusiastic developers,
+			we aim to satisfy your needs with a quality affordable bespoke software solution.
+		</div>
+
+
+<!-- 		<div class="PrescriptionPortfolio">
 
 		<section class="PrescriptionPortfolio__content">
 			<section class="PrescriptionPortfolio__content__text">
@@ -12,7 +18,7 @@
 			</section>
 		</section>
 		<section class="PrescriptionPortfolio__content__prescription-image"/>
-		</div>
+		</div> -->
 
 	</div>
 </template>
@@ -35,6 +41,13 @@ export default {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+
+	&__content {
+		padding: $theme-page-padding;
+		color: $colour-blue-light;
+		font-size: $theme-font-size-large;
+		text-align: center;
+	}
 }
 
 .PrescriptionPortfolio {
@@ -51,7 +64,7 @@ export default {
 		padding: $theme-page-padding;
 
 		&__text {
-			padding: $theme-prescription-padding;
+			padding: 10rem 4rem;
 			position: absolute;
 			left: 0px;
 			width: 45%;
