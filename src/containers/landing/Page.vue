@@ -6,7 +6,7 @@
 				> Holistic <span class="LandingPage__title--highlight">Web</span>
 			</h1>
 			<span class="LandingPage__tagline">
-				<span>Design. => Build. => Test. => Repeat.</span>
+				<span>Design. <span class="LandingPage__tagline--highlight">=></span> Build. <span class="LandingPage__tagline--highlight">=></span> Test. <span class="LandingPage__tagline--highlight">=></span> Repeat.</span>
 			</span>
 		</div>
 
@@ -50,6 +50,10 @@
 
 	&__tagline {
 		color: $colour-orange-dark;
+
+		&--highlight {
+			color: $colour-white;
+		}
 	}
 
 	&__arrow {
