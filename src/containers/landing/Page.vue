@@ -38,7 +38,7 @@
 	}
 
 	&__title {
-		font-size: 5rem;
+		font-size: $theme-font-size-largest-extreme;
 		color: $colour-blue-light;
 		width: fit-content;
 		margin: 0;
@@ -50,6 +50,7 @@
 
 	&__tagline {
 		color: $colour-orange-dark;
+		font-size: $theme-font-size-large;
 
 		&--highlight {
 			color: $colour-white;
