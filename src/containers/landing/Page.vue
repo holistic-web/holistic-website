@@ -17,9 +17,8 @@
 </template>
 
 <style lang="scss">
-@import '../../styles/colours';
-@import '../../styles/theme';
 @import '../../styles/helper-classes';
+@import '../../styles/theme';
 
 .LandingPage {
 	min-width: 100%;
