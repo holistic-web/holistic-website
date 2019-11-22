@@ -1,9 +1,14 @@
 <template>
 	<div class="LandingPage">
 
-		<h1 class="LandingPage__title">
-			> Holistic <span class="LandingPage__title--highlight">Web</span>
-		</h1>
+		<div class="LandingPage__text">
+			<h1 class="LandingPage__title">
+				> Holistic <span class="LandingPage__title--highlight">Web</span>
+			</h1>
+			<span class="LandingPage__tagline">
+				<span>Design. => Build. => Test. => Repeat.</span>
+			</span>
+		</div>
 
 		<span class="LandingPage__arrow"/>
 
@@ -26,17 +31,25 @@
 	justify-content: center;
 	align-items: center;
 
+	&__text {
+		padding: 0.5rem 0.5rem;
+		border-radius: $theme-border-radius;
+		background-color: $colour-blue;
+	}
+
 	&__title {
 		font-size: 5rem;
 		color: $colour-blue-light;
-		background-color: $colour-blue;
-		padding: 0 0.5rem;
-		border-radius: $theme-border-radius;
 		width: fit-content;
+		margin: 0;
 
 		&--highlight {
 			color: $colour-orange;
 		}
+	}
+
+	&__tagline {
+		color: $colour-orange-dark;
 	}
 
 	&__arrow {
