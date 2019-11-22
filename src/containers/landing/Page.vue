@@ -3,10 +3,10 @@
 
 		<div class="LandingPage__text">
 			<h1 class="LandingPage__title">
-				> Holistic <span class="LandingPage__title--highlight">Web</span>
+				<span class="helper-colour-white">></span> Holistic <span class="LandingPage__title--highlight">Web</span>
 			</h1>
 			<span class="LandingPage__tagline">
-				<span>Design. <span class="LandingPage__tagline--highlight">=></span> Build. <span class="LandingPage__tagline--highlight">=></span> Test. <span class="LandingPage__tagline--highlight">=></span> Repeat.</span>
+				<span>Design. <span class="helper-colour-white">=></span> Build. <span class="helper-colour-white">=></span> Test. <span class="helper-colour-white">=></span> Repeat.</span>
 			</span>
 		</div>
 
@@ -17,7 +17,9 @@
 </template>
 
 <style lang="scss">
-@import '../../styles/index';
+@import '../../styles/colours';
+@import '../../styles/theme';
+@import '../../styles/helper-classes';
 
 .LandingPage {
 	min-width: 100%;
@@ -25,7 +27,6 @@
 	background-image: url('../../assets/brick-wall.jpg');
 	background-size: cover;
 	background-position: center;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
