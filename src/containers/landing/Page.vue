@@ -41,7 +41,7 @@
 
 	&__arrow {
 		position: absolute;
-		bottom: 2rem;
+		bottom: 3rem;
 		right: 3rem;
 		background-size: contain;
 		background-repeat: no-repeat;
