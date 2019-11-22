@@ -51,10 +51,6 @@
 	&__tagline {
 		color: $colour-orange-dark;
 		font-size: $theme-font-size-large;
-
-		&--highlight {
-			color: $colour-white;
-		}
 	}
 
 	&__arrow {
