@@ -6,13 +6,14 @@
 
 <style lang="scss">
 @import './styles/colours';
+@import './styles/theme';
 
 body {
 	margin: 0;
 }
 
 #app {
-	font-family: 'Fira Code', monospace;
+	font-family: $theme-font-default;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;

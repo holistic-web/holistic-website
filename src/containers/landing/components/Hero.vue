@@ -20,6 +20,7 @@
 @import '../../../styles/theme';
 
 .LandingHero {
+	font-family: $theme-font-title;
 	min-width: 100%;
 	min-height: 100vh;
 	background-image: url('../../../assets/brick-wall.jpg');
