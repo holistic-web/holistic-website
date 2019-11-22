@@ -30,6 +30,7 @@ export default {
 	&__content {
 		width: $theme-page-width-desktop;
 		padding: $theme-page-padding;
+		text-align: left;
 	}
 }
 </style>
