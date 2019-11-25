@@ -3,7 +3,7 @@
 
 		<hero />
 
-		<section class="LandingPage__content">
+		<section id="scroll" class="LandingPage__content">
 			<h3 class="LandingPage__aboutUs__title">About Us</h3>
 			<p class="LandingPage__aboutUs">
 				We are Holistic Web, a software development and web design collective with offices in London and Los Angeles. As an international team of experienced, enthusiastic developers,

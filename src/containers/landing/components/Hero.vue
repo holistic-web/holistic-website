@@ -10,7 +10,7 @@
 			</span>
 		</div>
 
-		<span class="LandingHero__arrow"/>
+		<span class="LandingHero__arrow" v-scroll-to="{el: '#scroll'}"/>
 
 	</div>
 </template>
@@ -21,9 +21,9 @@
 
 .LandingHero {
 	font-family: $theme-font-title;
-	min-width: 100%;
+	min-width: 250%;
 	min-height: 100vh;
-	background-image: url('../../../assets/brick-wall.jpg');
+	background-image: linear-gradient(to right bottom, rgba(30, 32, 172, 0.7), rgba(50, 185, 219, 0.6)), url(../../../assets/circle.gif);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -34,11 +34,11 @@
 	&__text {
 		padding: 0.5rem 0.5rem;
 		border-radius: $theme-border-radius;
-		background-color: $colour-blue;
+		// background-color: $colour-blue;
 	}
 
 	&__title {
-		font-size: $theme-font-size-largest-extreme;
+		font-size: $theme-font-size-largest;
 		color: $colour-blue-light;
 		width: fit-content;
 		margin: 0;
@@ -50,7 +50,7 @@
 
 	&__tagline {
 		color: $colour-orange-dark;
-		font-size: $theme-font-size-large;
+		font-size: $theme-font-size-medium;
 	}
 
 	&__arrow {
